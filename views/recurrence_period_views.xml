@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <!-- Reference period tree view -->
+    <!-- Reference period list view -->
     <record id="recurrence_period_view_tree" model="ir.ui.view">
-        <field name="name">recurrence.period.view.tree</field>
+        <field name="name">recurrence.period.view.list</field>
         <field name="model">recurrence.period</field>
         <field name="arch" type="xml">
-            <tree string="Channel">
+            <list string="Channel">
                 <field name="name"/>
                 <field name="duration"/>
                 <field name="unit"/>
-            </tree>
+            </list>
         </field>
     </record>
     <!-- Reference period form view -->
